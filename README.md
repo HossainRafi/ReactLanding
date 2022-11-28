@@ -1,6 +1,6 @@
-# Project Name: [Landing Page](https://cryptoui.netlify.app)
+# Project Name: [Landing UI](https://landinguireact.netlify.app)
 
-## Project Live Link: https://cryptoui.netlify.app
+## Project Live Link: https://landinguireact.netlify.app
 
 ### Technology Used:
 - React.js

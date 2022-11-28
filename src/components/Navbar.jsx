@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
       <h1 className="w-full text-2xl md:text-3xl font-bold text-[#00df9a]">
-        Landing Page
+        Landing UI
       </h1>
       <ul className="hidden md:flex">
         <li className="p-4 duration-500 cursor-pointer hover:text-green-600">
@@ -44,7 +44,7 @@ const Navbar = () => {
         }
       >
         <h1 className="w-full text-2xl font-bold text-[#00df9a] m-4">
-          Landing Page
+          Landing UI
         </h1>
         <li className="p-4 border-b border-gray-600 duration-500 cursor-pointer hover:text-green-600">
           Home
