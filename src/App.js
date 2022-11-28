@@ -1,9 +1,19 @@
+import Analytics from "./components/Analytics";
+import Cards from "./components/Cards";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Newsletter from "./components/Newsletter";
+
 function App() {
   return (
     <div>
-      <h1>
-        This Project Contains The Basic Setup Of A React App With Tailwind CSS
-      </h1>
+      <Navbar />
+      <Hero />
+      <Analytics />
+      <Newsletter />
+      <Cards />
+      <Footer />
     </div>
   );
 }
