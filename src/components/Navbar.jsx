@@ -10,15 +10,30 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-      <h1 className="w-full text-2xl md:text-3xl font-bold text-[#00df9a]">Landing Page</h1>
+      <h1 className="w-full text-2xl md:text-3xl font-bold text-[#00df9a]">
+        Landing Page
+      </h1>
       <ul className="hidden md:flex">
-        <li className="p-4">Home</li>
-        <li className="p-4">Company</li>
-        <li className="p-4">Resources</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4 duration-500 cursor-pointer hover:text-green-600">
+          Home
+        </li>
+        <li className="p-4 duration-500 cursor-pointer hover:text-green-600">
+          Company
+        </li>
+        <li className="p-4 duration-500 cursor-pointer hover:text-green-600">
+          Resources
+        </li>
+        <li className="p-4 duration-500 cursor-pointer hover:text-green-600">
+          About
+        </li>
+        <li className="p-4 duration-500 cursor-pointer hover:text-green-600">
+          Contact
+        </li>
       </ul>
-      <div onClick={handleNav} className="block md:hidden cursor-pointer hover:scale-125 duration-500">
+      <div
+        onClick={handleNav}
+        className="block md:hidden cursor-pointer hover:scale-125 duration-500"
+      >
         {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
       <ul
@@ -31,11 +46,21 @@ const Navbar = () => {
         <h1 className="w-full text-2xl font-bold text-[#00df9a] m-4">
           Landing Page
         </h1>
-        <li className="p-4 border-b border-gray-600">Home</li>
-        <li className="p-4 border-b border-gray-600">Company</li>
-        <li className="p-4 border-b border-gray-600">Resources</li>
-        <li className="p-4 border-b border-gray-600">About</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4 border-b border-gray-600 duration-500 cursor-pointer hover:text-green-600">
+          Home
+        </li>
+        <li className="p-4 border-b border-gray-600 duration-500 cursor-pointer hover:text-green-600">
+          Company
+        </li>
+        <li className="p-4 border-b border-gray-600 duration-500 cursor-pointer hover:text-green-600">
+          Resources
+        </li>
+        <li className="p-4 border-b border-gray-600 duration-500 cursor-pointer hover:text-green-600">
+          About
+        </li>
+        <li className="p-4 duration-500 cursor-pointer hover:text-green-600">
+          Contact
+        </li>
       </ul>
     </div>
   );
