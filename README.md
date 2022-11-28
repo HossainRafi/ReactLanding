@@ -9,5 +9,5 @@
 - React Icons
 
 <p>
-This is a landing page website design using React and Tailwind CSS
+This is a landing page website design using React and Tailwind CSS. This site is fully responsive for every type of devices.
 </p>
