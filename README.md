@@ -1,4 +1,4 @@
-# Project Name: [LandingUI](https://landinguireact.netlify.app)
+# Project Name: [ReactLanding](https://landinguireact.netlify.app)
 
 ## Project Live Link: https://landinguireact.netlify.app
 
