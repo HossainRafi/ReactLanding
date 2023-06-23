@@ -1,13 +1,12 @@
 # Project Name: [ReactLanding](https://landinguireact.netlify.app)
 
-## Project Live Link: https://landinguireact.netlify.app
-
-### Technology Used:
+## Technologies:
 - React.js
 - Tailwind CSS
 - React Typed
 - React Icons
 
-<p>
-This is a landing page website design using React and Tailwind CSS. This site is fully responsive for every type of devices.
-</p>
+## Project Images:
+![app image](https://i.ibb.co/6bC9drV/1.png)
+![app image](https://i.ibb.co/V9q2Mwx/2.png)
+![app image](https://i.ibb.co/pQQq8zJ/3.png)
